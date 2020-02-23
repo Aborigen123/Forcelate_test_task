@@ -1,0 +1,209 @@
+{
+	"id": "d7bbc68d-5a31-1b24-c541-6d36f662fa7e",
+	"name": "Forcelate",
+	"description": "",
+	"order": [
+		"8d2a6d74-bc35-d6f8-d987-23b3e6f6ee71",
+		"c1ce998e-ffdd-3f04-2919-aca10a39163f",
+		"e4c18b58-ac88-ed95-9c36-dd1986f347e3",
+		"a03d77fe-cad5-aaa0-d182-37cf0665359c",
+		"0ea04626-b65c-b6a4-e7cb-825cdd1f9feb",
+		"04e5dc36-d4f1-cce8-deaf-c3516dcf3eec"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1582445378226,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "04e5dc36-d4f1-cce8-deaf-c3516dcf3eec",
+			"headers": "Authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWN0b3JAZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU4MjQ0NTE1MSwiZXhwIjoxNTgyNDQ4NzUxfQ.gm63GOPVXFnIGmMOfvWbJ2EidJR3FeJY_YYHUjUkPrw\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWN0b3JAZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU4MjQ0NTE1MSwiZXhwIjoxNTgyNDQ4NzUxfQ.gm63GOPVXFnIGmMOfvWbJ2EidJR3FeJY_YYHUjUkPrw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/select/uniquename",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d7bbc68d-5a31-1b24-c541-6d36f662fa7e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/select/uniquename",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582445424332,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "0ea04626-b65c-b6a4-e7cb-825cdd1f9feb",
+			"headers": "Authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWN0b3JAZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU4MjQ0NTE1MSwiZXhwIjoxNTgyNDQ4NzUxfQ.gm63GOPVXFnIGmMOfvWbJ2EidJR3FeJY_YYHUjUkPrw\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWN0b3JAZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU4MjQ0NTE1MSwiZXhwIjoxNTgyNDQ4NzUxfQ.gm63GOPVXFnIGmMOfvWbJ2EidJR3FeJY_YYHUjUkPrw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/select/color/red",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d7bbc68d-5a31-1b24-c541-6d36f662fa7e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/select/color/red",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582445419869,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8d2a6d74-bc35-d6f8-d987-23b3e6f6ee71",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/registration",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d7bbc68d-5a31-1b24-c541-6d36f662fa7e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/registration",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582445386432,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\":\"Victor\",\n\"age\": 12,\n\"email\":\"victor@gmail.com\",\n\"password\":\"qwerty\"\n}"
+		},
+		{
+			"id": "a03d77fe-cad5-aaa0-d182-37cf0665359c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWN0b3JAZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU4MjQ0NTE1MSwiZXhwIjoxNTgyNDQ4NzUxfQ.gm63GOPVXFnIGmMOfvWbJ2EidJR3FeJY_YYHUjUkPrw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWN0b3JAZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU4MjQ0NTE1MSwiZXhwIjoxNTgyNDQ4NzUxfQ.gm63GOPVXFnIGmMOfvWbJ2EidJR3FeJY_YYHUjUkPrw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/save/articles",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d7bbc68d-5a31-1b24-c541-6d36f662fa7e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/save/articles",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582445415685,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"text\":\"name\",\n\"color\": \"RED\"\n\n}"
+		},
+		{
+			"id": "c1ce998e-ffdd-3f04-2919-aca10a39163f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "d7bbc68d-5a31-1b24-c541-6d36f662fa7e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582445397196,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\n\t\"email\":\"victor@gmail.com\",\n\t\"password\":\"qwerty\"\n\t\n}"
+		},
+		{
+			"id": "e4c18b58-ac88-ed95-9c36-dd1986f347e3",
+			"headers": "Authorization: Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWN0b3JAZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU4MjQ0NTE1MSwiZXhwIjoxNTgyNDQ4NzUxfQ.gm63GOPVXFnIGmMOfvWbJ2EidJR3FeJY_YYHUjUkPrw\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer_eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWN0b3JAZ21haWwuY29tIiwicm9sZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTU4MjQ0NTE1MSwiZXhwIjoxNTgyNDQ4NzUxfQ.gm63GOPVXFnIGmMOfvWbJ2EidJR3FeJY_YYHUjUkPrw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/select/age/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "d7bbc68d-5a31-1b24-c541-6d36f662fa7e",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/select/age/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1582445402021,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
